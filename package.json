@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-first",
+  "version": "1.0.0",
+  "description": "17-Bloc-note-ajout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/audbnt/Bloc-Note-Ajout.git"
+  },
+  "bugs": {
+    "url": "https://github.com/audbnt/Bloc-Note-Ajout/issues"
+  },
+  "homepage": "https://github.com/audbnt/Bloc-Note-Ajout#readme",
+  "devDependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1"
+  }
+}

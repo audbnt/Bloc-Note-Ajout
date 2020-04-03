@@ -1,3 +1,10 @@
-body {
-    /* Indiquer ici au minimum les règles de typographie de base */
+.chat {
+	min-height: 400px;
+	max-height: 100vh;
+}
+
+@media (min-width: 768px) {
+	.chat {
+		max-height: calc(100vh - 78px)
+	}
 }
