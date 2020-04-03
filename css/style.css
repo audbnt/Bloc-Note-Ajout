@@ -1,6 +1,7 @@
 .chat {
 	min-height: 400px;
-	max-height: 100vh;
+    max-height: 100vh;
+    box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
