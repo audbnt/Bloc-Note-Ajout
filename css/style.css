@@ -1,11 +1,35 @@
-.chat {
-	min-height: 400px;
-    max-height: 100vh;
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+	text-align: center;
     box-sizing: border-box;
+    margin: auto;
+    padding: 2rem;
 }
 
-@media (min-width: 768px) {
-	.chat {
-		max-height: calc(100vh - 78px)
-	}
+.spaceNotes{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: .1rem solid black;
+}
+
+
+.notesBoard{
+    border: .1rem solid black;
+    width: 95%;
+    height: 500px;
+}
+
+
+.notes{
+    border: .1rem solid black;
+    width: 25%;
+    height: 10%;
+    margin: 1rem;
 }

@@ -10,31 +10,26 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
-<body class="min-vh-100 d-flex flex-column px-5">
-    <header class="mb-4 flex-shrink-0 bg-primary d-flex flex-column flex-md-row justify-content-center">
-          <h1 class="h1 text-white m-2">Bloc notes</h1>
+<body>
+    <header>
+          <h1>Bloc notes</h1>
     </header>
         
-    <div class="chat order-first order-md-2 d-flex flex-column w-100 ">
-        <h2 class="pb-2 border-bottom">Notes</h2>
-        <div class="messages w-100 flex-grow-1 overflow-auto" id="notesBoard">
-            <div id="div1">
-                <div class="card w-25 h-25 d-flex flex-column justify-content-center pl-3">
-                    <h3 class="h5">
-                        Note :
-                    </h3>
-                    <p class="text-secondary card-text">
+    <div class="spaceNotes">
+        <h2>Notes</h2>
+        <div id="notesBoard" class="notesBoard">
+            <div id="div1" class="notes">
+                    <p>
                         Feel free to talk about anything here
                     </p>
-                </div>
             </div>
         </div>
-        <form class="d-flex flex-column" action="js/index1.js">
-            <div class="form-group d-flex flex-column">
+        <form action="js/index1.js">
+            <div>
                 <label for="message">Notes :</label>
                 <textarea name="message" id="note" cols="30" rows="5" maxlength="100" placeholder="note..." wrap="hard"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary ml-auto" value="affiche" id="bpValid">Afficher note</button>
+            <button type="submit" value="affiche" id="bpValid">Afficher note</button>
         </form>
     </div>
             

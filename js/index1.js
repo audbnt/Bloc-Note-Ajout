@@ -11,10 +11,9 @@ function addElement () {
   
   // ajoute le nouvel élément créé et son contenu dans le DOM
   let currentDiv = document.getElementById('div1');
-  document.getElementById("notesBoard").insertBefore(newDiv, currentDiv);
+  document.getElementById("notesBoard").ad(newDiv, currentDiv);
 
 }
 
 
 bpSend.addEventListener("click", addElement);
-document.getElementById("notesBoard").onload = addElement;
