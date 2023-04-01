@@ -19,6 +19,6 @@
   "homepage": "https://github.com/audbnt/Bloc-Note-Ajout#readme",
   "devDependencies": {
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
